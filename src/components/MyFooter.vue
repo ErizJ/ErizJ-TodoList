@@ -4,7 +4,7 @@
       <input type="checkbox" v-model="isAll"/>
     </label>
     <span>
-      <span>已完成 <span style="color: blue;font-weight: bold;">{{doneTotal}}</span></span> / 全部 <span style="color: red;font-weight: bold;">{{total}}</span>
+      <span>已完成 <span style="color: yellowgreen;font-weight: bold;">{{doneTotal}}</span></span> / 全部 <span style="color: white;font-weight: bold;">{{total}}</span>
     </span>
     <button class="btn btn-danger" @click="clearAll">清除已完成任务</button>
   </div>

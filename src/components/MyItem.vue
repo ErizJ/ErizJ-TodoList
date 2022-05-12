@@ -96,7 +96,7 @@ export default {
 	}
 	
 	li:hover{
-		background-color: #DDDDDD;
+		background-color: #262627;
 	}
 	
 	li:hover button{
